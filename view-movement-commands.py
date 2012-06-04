@@ -1,3 +1,5 @@
+import sublime, sublime_plugin
+
 class PaneMoveCommand(sublime_plugin.WindowCommand):
   def run(self, direction):
     layout      = self.window.get_layout()
